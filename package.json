@@ -1,0 +1,19 @@
+{
+  "name": "jerry-test",
+  "version": "1.0.0",
+  "description": "Jerry Range List test",
+  "main": "src/index.js",
+  "author": "Cod3rkane",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+      "build": "npx webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
