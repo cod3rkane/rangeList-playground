@@ -1,4 +1,4 @@
-class RangeList {
+export default class RangeList {
   /**
     * Adds a range to the list
     * @param {Array<number>} range - Array of two integers that specify
@@ -6,7 +6,9 @@ class RangeList {
     */
   add(range) {
     // TODO: implement this
-  } /**
+  }
+
+  /**
     * Removes a range from the list
     * @param {Array<number>} range - Array of two integers that specify
     beginning and end of range.
@@ -14,6 +16,7 @@ class RangeList {
   remove(range) {
     // TODO: implement this
   }
+
   /**
    * Prints out the list of ranges in the range list
    */
