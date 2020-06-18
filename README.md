@@ -19,10 +19,12 @@ It correctly bundles app in production mode and optimizes the build for the best
 
 ```
   npm install
+  npm build
   npm start
   npm test
   # or
   yarn
+  yarn build
   yarn start
   yarn test
 ```
